@@ -4,17 +4,26 @@ This OpenCV application enables real-time face detection and recognition using a
 Prerequisites: Ensure you have the following dependencies installed:
 
 1.Python
+
 2.opencv-python
+
 3.opencv-contrib-python
+
 4.datetime
+
 5.NumPy 
+
 
 Dataset Creation:
 
 1.Open create_data.py.
+
 2.Change the path of "haar_file" and "datasets" below to the location where these files are on your machine
+
 3.Change the "name" variable to the name of the person whose face you want to store. Run create_data.py and follow on-screen instructions. Ensure good lighting and multiple face angles for better results. Face Recognition
+
 4.Run face_detection.py. Look into the camera in the same position as during dataset creation. The application will detect and recognize your face in real-time.
+
 
 Tips:
 
